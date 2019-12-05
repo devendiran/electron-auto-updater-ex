@@ -11,7 +11,7 @@ function createWindow () {
       nodeIntegration: true,
     },
   });
-  mainWindow.loadFile('browser/index.html');
+  mainWindow.loadFile('index.html');
   mainWindow.on('closed', function () {
     mainWindow = null;
   });
